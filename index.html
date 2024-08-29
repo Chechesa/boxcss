@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta charset="utf-8" />
+	<meta name="author" content="Marco Antonio Camarena Cortés" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bienvenido a Box CSS</title>
+
+</head>
+
+<body>
+
+<div>
+
+<div class="row">
+	<div class="small-12">
+	<h1>¡Bienvenido a Box CSS!</h1>
+
+	<p>En Box CSS dispones de una cuadrícula de 12 columnas en la que puedes adaptar tu diseño y distribuir tu contenido.</p>
+		<p>Empieza con el diseño móvil (small) y haz las modificaciones para las pantallas más grandes con los estilos que necesites.</p>
+		<p>Si simplemente quieres hacer uso de las columnas para un sitio de escritorio, usar .small-# te será suficiente.</p>
+		<p><strong>Descargar:</strong> <a href="css/box.css" download>Box CSS</a> y <a href="js/css3.js" download>Archivo JS</a> para compatibilidad de Media Queries con IE8</p>
+	</div>
+</div>
+	<div class="row">
+		<div class="large-8">
+			<h2>Veamos lo básico</h2>
+			<h3>Prefijos</h3>
+			<p><strong>Small</strong>: Tamaño de pantalla máximo de 640px</p>
+			<p><strong>Medium</strong>: Tamaño de pantalla mínimo de 641px y máximo de 1024px</p>
+			<p><strong>Large</strong>: Tamaño de pantalla mínimo de 1025px y máximo de 1440px</p>
+			<p><strong>XLarge</strong>: Tamaño de pantalla mínimo de 1441px y máximo de 1920px</p>
+			<p><strong>XXLarge</strong>: Tamaño de pantalla mínimo de 1921px</p>
+			<h3>Rejilla</h3>
+			<div class="row">
+				<div class="medium-6"><strong>.medium-6</strong> son 6 columnas a partir de pantallas medianas</div>
+				<div class="medium-6"><strong>.medium-6</strong> en pequeñas será una sola</div>
+			</div>
+			<div class="row">
+				<div class="large-6"><strong>.large-6</strong> son 6 columnas a partir de pantallas grandes</div>
+				<div class="large-2"><strong>.large-2</strong> son 2 columnas</div>
+				<div class="large-4"><strong>.large-4</strong> son 4 columnas</div>
+			</div>
+			<div class="show-for-large"><strong>.show-for-large</strong> Visible en pantallas grandes o mayores</div>
+			<div class="hide-for-large"><strong>.hide-for-large</strong> Oculto para pantallas grandes o mayores</div>
+			<div class="show-for-small-only"><strong>.show-for-small-only</strong> Visible sólo para pantallas pequeñas</div>
+		</div>
+		<div class="large-4">
+			<h2>Estilos rápidos</h2>
+			<p class="text-left"><strong>.text-left</strong> Alineación izquierda</p>
+			<p class="text-center"><strong>.text-center</strong> Alineación centrada</p>
+			<p class="text-right"><strong>.text-right</strong> Alineación derecha</p>
+			<p class="text-justify"><strong>.text-justify</strong> Alineación justificada</p>
+			<div class="float-left"><strong>.float-left</strong><br />Flotante a la izquierda</div>
+			<div class="float-right"><strong>.float-right</strong><br />Flotante a la derecha</div>
+		</div>
+	</div>
+
+
+<footer class="row">
+	<div class="text-center">
+		<p><strong>Box CSS</strong> fue inspirado en Foundation pero más simple y amigable con los buscadores. Compatible con todos los navegadores e IE8+</p>
+		<p>Te agradeceré cualquier comentario y sugerencia, puedes contactarme vía twitter <a href="http://twitter.com/Chechesa" target="_blank">@Chechesa</a> o en <a href="http://chechesa.com">Chechesa Labs</a> </p>
+	</div>
+</footer>
+
+</div>
+
+<link rel="stylesheet" type="text/css" href="css/box.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/css3.js"></script>
+<![endif]-->
+</body>
+</html>

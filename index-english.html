@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Marco Antonio Camarena Cortés" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Box CSS</title>
+</head>
+
+<body>
+
+<div>
+
+<div class="row">
+    <div class="small-12">
+    <h1>Welcome to Box CSS!</h1>
+
+    <p>Box CSS provides you with a 12-column grid where you can adapt your design and distribute your content.</p>
+    <p>Start with the mobile design (small) and make modifications for larger screens with the styles you need.</p>
+    <p>If you just want to use the columns for a desktop site, using .small-# will be sufficient.</p>
+    <p><strong>Download:</strong> <a href="css/box.css" download>Box CSS</a> and <a href="js/css3.js" download>JS file</a> for Media Query compatibility with IE8</p>
+    </div>
+</div>
+    <div class="row">
+        <div class="large-8">
+            <h2>Let's go over the basics</h2>
+            <h3>Prefixes</h3>
+            <p><strong>Small</strong>: Maximum screen size of 640px</p>
+            <p><strong>Medium</strong>: Screen size from 641px to 1024px</p>
+            <p><strong>Large</strong>: Screen size from 1025px to 1440px</p>
+            <p><strong>XLarge</strong>: Screen size from 1441px to 1920px</p>
+            <p><strong>XXLarge</strong>: Screen size above 1921px</p>
+            <h3>Grid</h3>
+            <div class="row">
+                <div class="medium-6"><strong>.medium-6</strong> represents 6 columns starting from medium screens</div>
+                <div class="medium-6"><strong>.medium-6</strong> on small screens will be a single column</div>
+            </div>
+            <div class="row">
+                <div class="large-6"><strong>.large-6</strong> represents 6 columns starting from large screens</div>
+                <div class="large-2"><strong>.large-2</strong> represents 2 columns</div>
+                <div class="large-4"><strong>.large-4</strong> represents 4 columns</div>
+            </div>
+            <div class="show-for-large"><strong>.show-for-large</strong> Visible on large screens or larger</div>
+            <div class="hide-for-large"><strong>.hide-for-large</strong> Hidden on large screens or larger</div>
+            <div class="show-for-small-only"><strong>.show-for-small-only</strong> Visible only on small screens</div>
+        </div>
+        <div class="large-4">
+            <h2>Quick Styles</h2>
+            <p class="text-left"><strong>.text-left</strong> Left alignment</p>
+            <p class="text-center"><strong>.text-center</strong> Center alignment</p>
+            <p class="text-right"><strong>.text-right</strong> Right alignment</p>
+            <p class="text-justify"><strong>.text-justify</strong> Justified alignment</p>
+            <div class="float-left"><strong>.float-left</strong><br />Floats left</div>
+            <div class="float-right"><strong>.float-right</strong><br />Floats right</div>
+        </div>
+    </div>
+
+
+<footer class="row">
+    <div class="text-center">
+        <p><strong>Box CSS</strong> was inspired by Foundation but is simpler and more search engine friendly. Compatible with all modern browsers and IE8+</p>
+        <p>I appreciate any comments and suggestions, you can contact me via Twitter at <a href="http://twitter.com/Chechesa" target="_blank">@Chechesa</a> or at <a href="http://chechesa.com">Chechesa Labs</a></p>
+    </div>
+</footer>
+
+</div>
+
+<link rel="stylesheet" type="text/css" href="css/box.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/css3.js"></script>
+<![endif]-->
+</body>
+</html>
