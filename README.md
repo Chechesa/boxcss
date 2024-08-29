@@ -38,6 +38,10 @@ If you need compatibility with IE8, include the JS file:
 </div>
 ~~~
 
+## More Details
+
+For more detailed examples and explanations of how to use BoxCSS, please refer to the [index.html](index.html) file included in this repository. It provides an overview of the grid system, screen size prefixes, and additional styles that you can apply in your projects.
+
 ## License
 
 BoxCSS is released under the MIT License.
